@@ -54,6 +54,8 @@ In trying to improve the model, I tried includin different permutations of the p
 * Number of bedrooms (categorical)
 * Number of bathrooms (categorical)
 
+**The notebook in this repository titled `King_County_analysis.ipynb` contains more details about how I iterated on these models and arrived at the final one. It also includes more comprehensive summaries of each model, including coefficients and p-values.**
+
 ## Conclusions
 ### Final model
 **The final model has an improved R-squared score of 0.590 and yields information that allows us to make useful inferences about the predicted sale price of a house, as well what actions a homeowner may take in order to increase it.**
