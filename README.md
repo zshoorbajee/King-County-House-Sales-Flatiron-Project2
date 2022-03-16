@@ -4,9 +4,9 @@ Flatiron School Data Science: Project 2
 - **Instructor**: Matt Carr
 - **Pace**: Flex, 20 weeks
 
-## Overview and Business Undestanding
+## Overview and Business Understanding
 
-This project analyzes data about homes sold in King County, Washington between May 2014 and May 2015 in order to make recommendations to a real estate agency. The agency wants to advise its clients on how to increase the estimated sale price of their homes. The anlysis will allow the agency to advise clients on 1) what kinds of renovations to make and 2) which aspects of their home to emphasize in a listing.
+This project analyzes data about homes sold in King County, Washington between May 2014 and May 2015 in order to make recommendations to a real estate agency. The agency wants to advise its clients on how to increase the estimated sale price of their homes. The analysis will allow the agency to advise clients on 1) what kinds of renovations to make and 2) which aspects of their home to emphasize in a listing.
 
 These are decisions that home sellers can make in an attempt to increase their sale price. Especially with renovations, this information will be useful because it will give sellers a sense of what kinds of renovations will result in a higher expected sale price.
 
@@ -28,7 +28,7 @@ The data I have available to me contains information about homes sold in King Co
 
 I use the sale price as the target variable, as it's the value we want to predict on behalf of the real estate agency and its clients.
 
-Ultimately, I drop several of these features before constucting models because they may not be useful to a homeowner or they aren't for someone selling their home to change. For example, if your house is not in a specific ZIP Code, you can't change that before you sell it.
+Ultimately, I drop several of these features before constructing models because they may not be useful to a homeowner or they aren't for someone selling their home to change. For example, if your house is not in a specific ZIP Code, you can't change that before you sell it.
 
 ### Baseline model
 
@@ -44,7 +44,7 @@ This baseline model had a relatively low R-squared score of 0.441. To try to imp
 
 ### Iterations and final model
 
-In trying to improve the model, I tried includin different permutations of the predictors below. The final model included the ones marked by an asterisk.
+In trying to improve the model, I tried including different permutations of the predictors below. The final model included the ones marked by an asterisk.
 * **Square footage of the living space (logged)** *
 * **Condition (categorical)** * 
 * **Grade (categorical)** *
@@ -62,7 +62,7 @@ In trying to improve the model, I tried includin different permutations of the p
 
 **Square footage of living space:** Increasing the square footage is associated with a higher sale price. Generally speaking, if a homeowner is able to increase this, the house can be expected to sell for more.
 
-**Condition of the house (maintenance):** The reference point for the model is a house with a condition of "2_Fair." If the homehowner can do some maintenance to improve the condition of the house to any higher classification, the expected sale price should go up.
+**Condition of the house (maintenance):** The reference point for the model is a house with a condition of "2_Fair." If the homeowner can do some maintenance to improve the condition of the house to any higher classification, the expected sale price should go up.
 
 **Grade of the house (quality of construction):** The reference point for the model is a house with a grade of "5_Fair." Higher grades are associated with higher sale prices. If the homeowner can overhaul the quality of the construction and design of the house, that is expected to increase the sale price.
 
